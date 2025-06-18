@@ -1,7 +1,6 @@
 import tkinter as tk
 from tkinter import messagebox, Listbox, END
 from datetime import date
-
 from autokolcsonzo import Autokolcsonzo
 from szemelyauto import Szemelyauto
 from teherauto import Teherauto
@@ -23,7 +22,6 @@ kolcsonzo.berlesek = [
     Berles(kolcsonzo.autok[1], date.today()),
     Berles(kolcsonzo.autok[2], date.today()),
     Berles(kolcsonzo.autok[6], date.today())]
-
 
 def listafrissites():
     auto_listbox.delete(0, END)
